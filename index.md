@@ -102,9 +102,9 @@ Currently, the model is trained and prepared just for Tehran addresses and doesn
 
 You can order each model via my [email portal](mailto:behzad.shayegh.b@gmail.com). You can buy trained model or build it given your own dataset independently. Feel free to ask questions.
 
-### Preprocessor Model will be Available for Free
+### The preprocessor model is available for free
 
-In order to speed up research related to Persian language, the source code of the preprocessor model of this system will be available for free.
+In order to speed up research related to Persian language, the source code of the preprocessor model is available for free.
 
 This preprocessor works unsupervised and does not require any cleaned or special data. All you need to do is give it plenty of unprocessed data. This model uses heuristic methods based on data statistics, therefore, as the volume of input data increases, the performance quality of the model also increases. It should be noted that this model does not use grammatical rules and therefore can be used in a wider range. Because it's unsupervised, there is a possibility of error in it's process, but it successfully standardize and reduce the number of types of input text. This model will work if you need to start your research quickly and temporarily go through the preprocessing stage. Look at these statistics about it's performance:
 
