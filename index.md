@@ -1,16 +1,14 @@
 ## Persian Address Tracer
 
-Persian Address Tracer (PAT) is an intelligent system for converting Persian text of address to postal code. If you are not aware, it is worth mentioning that due to the special conditions in the Persian language and also the lack of standards in addressing in Iran, this is a difficult issue. As far as we know, the PAT system is the most successful and intelligent system available for this issue.
+Persian Address Tracer (PAT) is an intelligent system for converting the Persian text of an address to a postal code. If you are not aware, it is worth mentioning that this is a complicated issue due to the special conditions in the Persian language and the lack of standards in addressing in Iran. As far as we know, the PAT system is the most successful and intelligent system available for this issue.
 
 ### Performance
 
-Given the "lack of data" concern in Persian text processing problems, the model is trained and evaluated in the lack of data. Vividly by feeding more data to the model, performance will increase. There are two versions of model; One optimises the response time and the other is maximizing prediction accuracy.
-Here is a brief report of the performance of the model, evaluated in the lack of data.
-Note that in the following tables, for the complete addresses, the "Avenue Level Performance" is equal to the "Postal-Code Level Performance".
+Given the “lack of data” concern in Persian text processing problems, the model is trained and evaluated in the lack of data. Vividly by feeding more data to the model, performance will increase. There are two versions of the model; One optimizes the response time, and the other maximizes prediction accuracy. Here is a brief report of the performance of the model, evaluated in the lack of data. Note that in the following tables, the “Avenue Level Performance” is equal to the “Postal-Code Level Performance” for the complete addresses.
 
 <br/>
 <table>
-  <caption>Response Accuracy Optimizer Model Performance (Response Speed: 5 it/s)</caption>
+  <caption>The Response Accuracy Optimizer Model Performance (Response Speed: 5 it/s)</caption>
   <tr>
     <th rowspan="2">Number of Model Suggestions</th>
     <th colspan="3">Prediction Accuracy</th>
@@ -53,7 +51,7 @@ Note that in the following tables, for the complete addresses, the "Avenue Level
 </table>
 <br/>
 <table>
-  <caption>Response Time Optimizer Model Performance (Response Speed: 41 it/s)</caption>
+  <caption>The Response Time Optimizer Model Performance (Response Speed: 41 it/s)</caption>
   <tr>
     <th rowspan="2">Number of Model Suggestions</th>
     <th colspan="3">Prediction Accuracy</th>
@@ -98,18 +96,21 @@ Note that in the following tables, for the complete addresses, the "Avenue Level
 
 ### Bargain
 
-Currently, the model is trained and prepared just for Tehran addresses and doesn't support other cities. But it can be easily prepared for otherwheres just if there is suitable datasets (pairs of address and location). Performance depends on amonts of data but response time is independent.
+Currently, the model is trained and prepared just for Tehran addresses and doesn’t support other cities. But it can be easily provided for other wheres if there are suitable datasets (pairs of address and location). Performance depends on amounts of data, but response time is independent.
 
-You can order each model via my [email portal](mailto:behzad.shayegh.b@gmail.com). You can buy trained model or build it given your own dataset independently. Feel free to ask questions.
+You can order each model via my email portal. You can buy a trained model or build it, given your dataset. Feel free to ask questions.
 
 ### The preprocessor model is available for free
 
-In order to speed up research related to Persian language, the source code of the preprocessor model is available for free.
+To speed up research related to the Persian language, the source code of the preprocessor model is available for free.
 
-This preprocessor works unsupervised and does not require any cleaned or special data. All you need to do is give it plenty of unprocessed data. This model uses heuristic methods based on data statistics, therefore, as the volume of input data increases, the performance quality of the model also increases. It should be noted that this model does not use grammatical rules and therefore can be used in a wider range. Because it's unsupervised, there is a possibility of error in it's process, but it successfully standardize and reduce the number of types of input text. This model will work if you need to start your research quickly and temporarily go through the preprocessing stage. Look at these statistics about it's performance:
+This preprocessor works unsupervised and does not require any particular data. All you need to do is give it plenty of unprocessed data. This model uses heuristic methods based on data statistics. Therefore, The more volume of input data you provide for it, The better performance it will payback.
+What should note is that this model does not use grammatical rules; therefore, it can be used in a broader range.
+
+Because it’s unsupervised, there is a possibility of error in its process, but it successfully standardizes and reduces the number of types of input text. Look at these statistics about its performance:
 
 <table>
-  <caption>Preprocessor Model Performance</caption>
+  <caption>The Preprocessor Model Performance</caption>
   <tr>
     <th></th>
     <th>Before Preprocess</th>
@@ -127,4 +128,5 @@ This preprocessor works unsupervised and does not require any cleaned or special
   </tr>
 </table>
 
+This model will work satisfying if you need to start your research quickly and temporarily go through the preprocessing stage.
 You can get the preprocessor model by contacting me via my [email portal](mailto:behzad.shayegh.b@gmail.com). Feel free to ask questions.
