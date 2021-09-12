@@ -1,6 +1,6 @@
 ## Persian Address Tracer
 
-Persian Address Tracer (PAT) is an intelligent system for converting the Persian text of an address to a postal code. If you are not aware, it is worth mentioning that this is a complicated issue due to the special conditions in the Persian language and the lack of standards in addressing in Iran. As far as we know, the PAT system is the most successful and intelligent system available for this issue.
+Persian Address Tracer (PAT) is an intelligent system for converting the Persian text of an address to a postal code. It is worth mentioning that this is a complicated issue due to the special conditions in the Persian language and the lack of standards in addressing in Iran. As far as we know, the PAT system is the most successful and intelligent system available for this issue.
 
 ### Performance
 
